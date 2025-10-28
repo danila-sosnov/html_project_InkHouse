@@ -1,0 +1,376 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body{
+  font-family: 'Raleway', sans-serif;
+}
+
+.header{
+    padding: 31px 0;
+    background: #e1ede6;
+
+}
+
+.container {
+  max-width: 1140px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+ 
+.header_container{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+ul{
+    list-style: none;
+}
+
+.header_nav{
+    margin-right: 40px;
+}
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    
+    
+    
+}
+
+.header_left{
+    display: flex;
+    align-items: center;
+
+    
+}
+
+.header__right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+.nav_link
+{
+    color: #4c5866;
+    position: relative;
+	font-weight: 500;
+	font-size: 23px;
+	line-height: 23px;
+	text-decoration: none;
+	transition: color 0.3s ease-in-out;
+}
+
+.logo
+{
+  margin-left: 50px;
+}
+
+  .hero{
+    display: flex;
+    padding-bottom: 20px;
+  }
+
+  img{
+    max-width: 100%;
+    border-style: none;
+  }
+
+  .hero_content{
+   
+    
+    padding-top: 145px;
+  }
+
+  .title{
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-size: 60px;
+    line-height: 110%;
+    color: #2C2D35;
+  }
+
+  .title span{
+    color: #598D66;
+  }
+ 
+  .descr{
+    margin: 0;
+    margin-bottom: 60px;
+    font-size: 18px;
+    line-height: 150%;
+    color: #86928B;
+  }
+
+  .container{
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
+  .flex{
+    display: flex;
+  }
+
+
+
+  .hero_link{
+    display: inline-block;
+    padding: 20px 40px;
+    font-size: 20px;
+    text-align: center;
+    color: #598D66;
+    border: 1px solid;
+    min-width: 225px;
+  }
+
+
+
+a{ 
+  text-decoration: none;
+}
+
+.container{
+  max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+
+.catalog_title{
+	margin-right: 20px;
+	margin: 0;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 110%;
+    color: #2C2D35;
+}
+
+.catalog_top {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.catalog_title {
+
+  margin-right: 20px;
+}
+
+.catalog_tabs{
+  display: flex;
+  align-items: center;
+  margin: 0;
+  list-style-type: none;
+}
+
+.catalog_tabs_item{
+  margin-right: 34px;
+}
+
+.catalog_btn{
+  border: none;
+  border-radius: 20px;
+  padding: 10px 21px;
+  font-size: 20px;
+  line-height: 23px;
+  color: #E1EDE6;
+  background-color: #376B44;
+  font-family: inherit;
+}
+
+.catalog{
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+
+.product{
+  display: flex;
+    flex-direction: column;
+    padding: 20px;
+    height: 100%;
+    background: #e1ede6;
+}
+.product_content{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding-top: 16px;
+  padding-bottom: 10px;
+
+}
+
+.product_author{
+  display: inline-block;
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 21px;
+  color: #86928B;
+}
+
+.product_title{
+  margin: 0;
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 35px;
+  color: #2C2D35;
+}
+
+.product_props{
+  display: inline-block;
+  margin-bottom: 30px;
+  font-size: 18px;
+  line-height: 21px;
+  color: #2C2D35
+}
+
+.product_price{
+  margin-bottom: 20px;
+  font-size: 24px;
+  line-height: 28px;
+  color: #598D66;
+}
+
+.product_btn{
+  display: inline-block;
+    padding: 20px ;
+    font-size: 20px;
+    text-align: center;
+    color: #598D66;
+    border: 1px solid;
+    min-width: 225px;
+    background: #e1ede6;
+
+}
+
+.catalog_list{
+ 
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding-top: 40px;
+    list-style-type: none;
+}
+ 
+.container{
+  max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.newbies{
+    padding-top: 66px;
+    padding-bottom: 73px;
+    background-image: url(https://live.verstaem.online/house/img/newbies-bg.jpg);
+    background-position: center;
+    background-size: cover;
+
+   
+
+   
+}
+
+.newbies_title{
+  margin-bottom: 16px;
+  padding-left: 100px;
+  max-width: 521px;
+  color: #fff;
+  background-image: url(https://live.verstaem.online/house/img/star.svg);
+  background-repeat: no-repeat;
+  font-weight: 500;
+  font-size: 40px;
+  
+}
+
+.newbies_content{
+  margin-bottom: 60px;
+    max-width: 560px;
+    font-size: 20px;
+    line-height: 150%;
+    color: #fff;
+}
+
+.newbies_descr{
+  margin-bottom: 20px;
+}
+
+.newbies_link{
+  min-width: 257px;
+  color: #2C2D35;
+  background-color: #EEDB6D;
+  display: inline-block;
+  padding: 20px ;
+  font-size: 20px;
+  text-align: center;
+  
+}
+
+.about{
+  padding: 70px;
+}
+
+.container{
+  max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+
+.about_content{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 30px;
+
+}
+
+.about_title{
+  padding-top: 123px;
+  font-weight: 500;
+  font-size: 40px;
+  color:#2C2D35;
+  
+
+}
+
+img{
+  max-width: 768px;
+}
+
+.about_descr{
+  margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 150%;
+  color: #2C2D35;
+  max-width: 600px;
+}
+
+.about_team{
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.container{
+  max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.footer_container{
+  display: flex;
+}
